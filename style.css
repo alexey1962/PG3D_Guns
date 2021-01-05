@@ -32,5 +32,59 @@ img {
 div.header {
 	display: block;
 	height: 200px;
-	background: url(header/Christmas_town.png);
+	background: url(img/Christmas_town.png);
+}
+
+div.primary {
+	background: url(img/categories/1.PNG);
+	height: 100px;
+	width: 100px;
+	position: absolute; 
+	top: 100px;
+	left: 840px;
+}
+
+div.backup {
+	background: url(img/categories/2.PNG);
+	height: 100px;
+	width: 100px;
+	position: absolute; 
+	top: 100px;
+	left: 1000px;
+}
+
+div.melee {
+	background: url(img/categories/3.PNG);
+	height: 100px;
+	width: 100px;
+	position: absolute; 
+	top: 100px;
+	left: 1160px;
+}
+
+div.special {
+	background: url(img/categories/4.PNG);
+	height: 100px;
+	width: 100px;
+	position: absolute; 
+	top: 100px;
+	left: 1320px;
+}
+
+div.sniper {
+	background: url(img/categories/5.PNG);
+	height: 100px;
+	width: 100px;
+	position: absolute; 
+	top: 100px;
+	left: 1480px;
+}
+
+div.premium {
+	background: url(img/categories/6.PNG);
+	height: 100px;
+	width: 100px;
+	position: absolute; 
+	top: 100px;
+	left: 1640px;
 }
