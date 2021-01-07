@@ -35,7 +35,7 @@ div.header {
 	background: url(img/Christmas_town.png);
 }
 
-div.primary {
+input.primary {
 	background: url(img/categories/1.PNG);
 	height: 100px;
 	width: 100px;
@@ -44,7 +44,7 @@ div.primary {
 	left: 840px;
 }
 
-div.backup {
+input.backup {
 	background: url(img/categories/2.PNG);
 	height: 100px;
 	width: 100px;
@@ -53,7 +53,7 @@ div.backup {
 	left: 1000px;
 }
 
-div.melee {
+input.melee {
 	background: url(img/categories/3.PNG);
 	height: 100px;
 	width: 100px;
@@ -62,7 +62,7 @@ div.melee {
 	left: 1160px;
 }
 
-div.special {
+input.special {
 	background: url(img/categories/4.PNG);
 	height: 100px;
 	width: 100px;
@@ -71,7 +71,7 @@ div.special {
 	left: 1320px;
 }
 
-div.sniper {
+input.sniper {
 	background: url(img/categories/5.PNG);
 	height: 100px;
 	width: 100px;
@@ -80,7 +80,7 @@ div.sniper {
 	left: 1480px;
 }
 
-div.premium {
+input.premium {
 	background: url(img/categories/6.PNG);
 	height: 100px;
 	width: 100px;
