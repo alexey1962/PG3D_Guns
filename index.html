@@ -6,19 +6,24 @@
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="favicon.ico">
  </head>
- <body>
+ <body class="page light-theme dark-theme">
+
+  <div class="container">
+    <button class="theme-button" type="button">Поменять обложку</button>
+  </div>
 
     <div class="header"></div>
 
     <input class="primary" type="button" onclick="alert('Основные!')" style="background-image: url(img/categories/1.PNG);" />
     <input class="backup" type="button" onclick="alert('Пистолеты!')" style="background-image: url(img/categories/2.PNG);" />
     <input class="melee" type="button" onclick="alert('Ближнее!')" style="background-image: url(img/categories/3.PNG);" />
-    <input class="special" type="button" onclick="alert('Спецки!')" style="background-image: url(img/categories/4.PNG);" />
+    <input class="special" type="button" style="background-image: url(img/categories/4.PNG);" />
     <input class="sniper" type="button" onclick="alert('Снайпы!')" style="background-image: url(img/categories/5.PNG);" />
-    <input class="premium" type="button" onclick="alert('Тяжики!')" style="background-image: url(img/categories/6.PNG);" />
+    <input class="premium" type="button" style="background-image: url(img/categories/6.PNG);" />
 
-  <img src="./img/weapons/image (1).PNG" alt="" class="premiumImg">
-  <img src="./img/weapons/image (2).PNG" alt="" class="sniperImg">
+<div>
+  <img src="./img/weapons/image (1).PNG" alt="" id="image-F1">
+  <img src="./img/weapons/image (2).PNG" alt="">
   <img src="./img/weapons/image (3).PNG" alt="">
   <img src="./img/weapons/image (4).PNG" alt="">
   <img src="./img/weapons/image (5).PNG" alt="">
@@ -157,5 +162,6 @@
   <img src="./img/weapons/image (138).jfif" alt="">
   <img src="./img/weapons/image (139).jfif" alt="">
   <img src="./img/weapons/image (140).jfif" alt="">
+</div>
  </body>
 </html>
