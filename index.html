@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
  <head>
-  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Удаленные оружия</title>
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="favicon.ico">
@@ -9,7 +9,7 @@
  <body class="page light-theme dark-theme">
 
   <div class="container">
-    <button class="theme-button" type="button">Поменять обложку</button>
+    <button class="theme-button" type="button">Поменять тему</button>
   </div>
 
     <div class="header"></div>
@@ -163,5 +163,17 @@
   <img src="./img/weapons/image (139).jfif" alt="">
   <img src="./img/weapons/image (140).jfif" alt="">
 </div>
+
+  <script src="https://unpkg.com/vue"></script>
+  <script src="main.js"></script>
+  
+  <div id="bottom">
+    <h1>{{ info }}</h1>
+    <ul>
+      <li><a :href="link">PixelGun3D FandomWiki</a></li>
+      <li><br><a :href="play">PixelGun3D в PlayMarket</a></br></li>
+    </ul>
+  </div>
+
  </body>
 </html>
