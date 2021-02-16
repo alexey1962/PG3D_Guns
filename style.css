@@ -35,10 +35,17 @@ div.header {
 	background: url(img/Christmas_town.png);
 }
 
+div.header {
+	display:block;
+	height: 200px;
+	background: url(img/Christmas_town.png)
+}
+
 input.primary {
 	background: url(img/categories/1.PNG);
 	height: 100px;
 	width: 100px;
+	cursor: pointer;
 	position: absolute; 
 	top: 100px;
 	left: 840px;
@@ -48,6 +55,7 @@ input.backup {
 	background: url(img/categories/2.PNG);
 	height: 100px;
 	width: 100px;
+	cursor: pointer;
 	position: absolute; 
 	top: 100px;
 	left: 1000px;
@@ -57,6 +65,7 @@ input.melee {
 	background: url(img/categories/3.PNG);
 	height: 100px;
 	width: 100px;
+	cursor: pointer;
 	position: absolute; 
 	top: 100px;
 	left: 1160px;
@@ -66,6 +75,7 @@ input.special {
 	background: url(img/categories/4.PNG);
 	height: 100px;
 	width: 100px;
+	cursor: pointer;
 	position: absolute; 
 	top: 100px;
 	left: 1320px;
@@ -75,6 +85,7 @@ input.sniper {
 	background: url(img/categories/5.PNG);
 	height: 100px;
 	width: 100px;
+	cursor: pointer;
 	position: absolute; 
 	top: 100px;
 	left: 1480px;
@@ -84,6 +95,7 @@ input.premium {
 	background: url(img/categories/6.PNG);
 	height: 100px;
 	width: 100px;
+	cursor: pointer;
 	position: absolute; 
 	top: 100px;
 	left: 1640px;
@@ -99,16 +111,7 @@ input.premium {
   right:0;
   width: 150px;
   height: 30px;
+  cursor: pointer;
   background-color: #6653d9;
   border: 3px solid #000000;
 }
-
-.light-theme {
-	color: #333333;
-	background-color: #eae9f2;
-  }
-
-  .dark-theme {
-	color: #f2f2f2;
-	background-color: #17161a;
-  }

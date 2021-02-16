@@ -8,7 +8,15 @@
  </head>
  <body class="page light-theme dark-theme">
 
-  <div class="container">
+  <div id="dynamic-component-demo" class="demo">
+    <button v-for="tab in tabs" v-bind:key="tab.name"
+      v-bind:class="['tab-button', { active: currentTab.name === tab.name }]" v-on:click="currentTab = tab">
+      {{ tab.name }}
+    </button>
+  
+    <component v-bind:is="currentTab.component" class="tab"></component>
+
+  <!-- <div class="container">
     <button class="theme-button" type="button">Поменять тему</button>
   </div>
 
@@ -19,10 +27,9 @@
     <input class="melee" type="button" onclick="alert('Ближнее!')" style="background-image: url(img/categories/3.PNG);" />
     <input class="special" type="button" style="background-image: url(img/categories/4.PNG);" />
     <input class="sniper" type="button" onclick="alert('Снайпы!')" style="background-image: url(img/categories/5.PNG);" />
-    <input class="premium" type="button" style="background-image: url(img/categories/6.PNG);" />
+    <input class="premium" type="button" style="background-image: url(img/categories/6.PNG);" /> -->
 
-<div>
-  <img src="./img/weapons/image (1).PNG" alt="" id="image-F1">
+<!-- <div>
   <img src="./img/weapons/image (2).PNG" alt="">
   <img src="./img/weapons/image (3).PNG" alt="">
   <img src="./img/weapons/image (4).PNG" alt="">
@@ -162,18 +169,21 @@
   <img src="./img/weapons/image (138).jfif" alt="">
   <img src="./img/weapons/image (139).jfif" alt="">
   <img src="./img/weapons/image (140).jfif" alt="">
-</div>
+</div> -->
 
   <script src="https://unpkg.com/vue"></script>
   <script src="main.js"></script>
   
-  <div id="bottom">
+   <div id="dynamic-component-demo">
     <h1>{{ info }}</h1>
     <ul>
       <li><a :href="link">PixelGun3D FandomWiki</a></li>
       <li><br><a :href="play">PixelGun3D в PlayMarket</a></br></li>
+      <li><br><a v-bind:href="community">Официальное сообщество в VK</a></br></li>
     </ul>
   </div>
+
+  <div class="bottom"></div>
 
  </body>
 </html>
